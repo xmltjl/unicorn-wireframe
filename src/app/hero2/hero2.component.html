@@ -1,0 +1,43 @@
+<section class="dashboard-counts section-padding">
+	<div class="container-fluid">
+		<div class="row">
+
+
+			<div class="card ml-3 mt-3 col-sm12 col-lg-4 col-xl-2">
+				<div class="name d-flex p-2 justify-content-between">
+					<h5 _ngcontent-sxl-c120="">METRICS1 | 24,546</h5>
+					<button type="button" data-toggle="modal" data-target="#myModal" class="btn"><i class="fas fa-expand-arrows-alt" aria-hidden="true"></i></button>
+				</div>
+				<div class="card-body text-center">
+
+
+					<ngx-charts-bar-vertical [view]="[700,300]" [results]="salesData" [xAxisLabel]="xAxisLabel"
+						[legendTitle]="legendTitle" [yAxisLabel]="yAxisLabel" [legend]="legend"
+						[showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel" [xAxis]="xAxis"
+						[gradient]="gradient">
+					</ngx-charts-bar-vertical>
+
+
+					<div id="myModal" class="modal fade">
+						<div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h4 class="modal-title">METRICS SECTION</h4>
+									<button type="button" data-dismiss="modal" class="close">×</button>
+								</div>
+								<div class="modal-body">
+									<app-dashboard4></app-dashboard4>
+								</div>
+								<div class="modal-footer">
+									<button type="button" data-dismiss="modal" class="btn btn-danger">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+</section>

@@ -10,12 +10,13 @@ import { CardComponent } from "./card/card.component";
 import { HeaderComponent } from "./header/header.component";
 import { FooterComponent } from "./footer/footer.component";
 import { NavLeftComponent } from "./nav-left/nav-left.component";
-import { ChartBarComponent } from "./chart-bar/chart-bar.component";
+
 import { Dashboard1Component } from "./dashboard1/dashboard1.component";
 import { Dashboard2Component } from "./dashboard2/dashboard2.component";
 import { Dashboard3Component } from "./dashboard3/dashboard3.component";
 import { Dashboard4Component } from "./dashboard4/dashboard4.component";
 import { Hero1Component } from './hero1/hero1.component';
+import { Hero2Component } from './hero2/hero2.component';
 
 @NgModule({
   imports: [
@@ -31,12 +32,13 @@ import { Hero1Component } from './hero1/hero1.component';
     HeaderComponent,
     FooterComponent,
     NavLeftComponent,
-    ChartBarComponent,
+ 
     Dashboard1Component,
     Dashboard2Component,
     Dashboard3Component,
     Dashboard4Component,
-    Hero1Component
+    Hero1Component,
+    Hero2Component
   ],
   bootstrap: [AppComponent]
 })

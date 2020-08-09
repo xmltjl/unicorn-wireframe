@@ -1,13 +1,13 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit } from '@angular/core';
 import { NgxChartsModule } from "@swimlane/ngx-charts";
 import { salesData } from "../model/chart-ngx";
 
 @Component({
-  selector: "app-hero1",
-  templateUrl: "./hero1.component.html",
-  styleUrls: ["./hero1.component.css"]
+  selector: 'app-hero2',
+  templateUrl: './hero2.component.html',
+  styleUrls: ['./hero2.component.css']
 })
-export class Hero1Component {
+export class Hero2Component {
   salesData: any[];
 
   // options
