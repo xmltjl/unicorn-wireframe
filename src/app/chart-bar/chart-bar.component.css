@@ -1,0 +1,18 @@
+app-chart-bar {
+  #chart {
+    height: inherit;
+    width: inherit;
+
+    .bar {
+      fill: #d0d0ce;
+    }
+
+    .bar:hover {
+      fill: #3c3c3c;
+    }
+
+    .axis--x path {
+      display: none;
+    }
+  }
+}

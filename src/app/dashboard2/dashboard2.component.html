@@ -1,0 +1,73 @@
+<section class="charts">
+	<div class="container-fluid">
+		<!-- Page Header-->
+		<header>
+			<h1 class="h3 display">Charts </h1>
+		</header>
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="card line-chart-example">
+					<div class="card-header d-flex align-items-center">
+						<h4>Line Chart Example</h4>
+					</div>
+					<div class="card-body">
+						<div class="chart-container">
+							<!-- <ngx-charts-tree-map [view]="[700,300]" [results]="salesData" [gradient]="gradient"
+								[animations]="animations" [labelFormatting]="labelFormatting"
+								(select)="onSelect($event)">
+							</ngx-charts-tree-map> -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="card bar-chart-example">
+					<div class="card-header d-flex align-items-center">
+						<h4>Bar Chart Example</h4>
+					</div>
+					<div class="card-body">
+						<div class="chart-container">
+							<ngx-charts-bar-vertical [view]="[700,300]" [results]="salesData" [xAxisLabel]="xAxisLabel"
+								[legendTitle]="legendTitle" [yAxisLabel]="yAxisLabel" [legend]="legend"
+								[showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel" [xAxis]="xAxis"
+								[gradient]="gradient">
+							</ngx-charts-bar-vertical>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="card pie-chart-example">
+					<div class="card-header d-flex align-items-center">
+						<h4>Pie Chart Example</h4>
+					</div>
+					<div class="card-body">
+						<div class="chart-container">
+							
+							<ngx-charts-advanced-pie-chart [view]="[700,250]" [results]="salesData" [gradient]="true">
+							</ngx-charts-advanced-pie-chart>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-lg-6">
+				<div class="card polar-chart-example">
+					<div class="card-header d-flex align-items-center">
+						<h4>Pie Chart Example</h4>
+					</div>
+					<div class="card-body">
+						<div class="chart-container">
+							<ngx-charts-pie-grid [view]="[700,250]" [results]="salesData">
+							</ngx-charts-pie-grid>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
